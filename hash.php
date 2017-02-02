@@ -1,5 +1,5 @@
 <?
-require_once('./oauth/TwitterOAuth.php');
+require_once('./oauth/src/TwitterOAuth.php');
 
 //twitterAppsで取得
 $consumerKey        = JZO7anqtpuCV845XjKvTIAID3; // https://apps.twitter.com から取得
