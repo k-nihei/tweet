@@ -6,10 +6,10 @@ $count = 200; // 1回のツイート読み込み数
 $disp_count = 10;    // ツイート表示数
  
 // api認証KEY
-define('CONSUMER_KEY', 'EOtxYrUULah2wcX8DtaMDYQpA');
-define('CONSUMER_SECRET', '3FetIXJheplcbT30c6GZ6o9EXuovzjqtj1Th6cfL5G6SdlPNu7');
-define('ACCESS_TOKEN', '106972181-de7MOCY8Nz2N6noh4cUv50bQa9AT0AHYckC8RNSU');
-define('ACCESS_TOKEN_SECRET', '9H8IWc2nS7TQO2iOrrrX4558O8IJ0AIyO9Sg97JSTw4Dn');
+define('CONSUMER_KEY', 'JZO7anqtpuCV845XjKvTIAID3');
+define('CONSUMER_SECRET', 'cflqal7J36vbJUAd7wNaYBe3ZBrvrJMNVsH6n8QPmKQFVNDcnZ');
+define('ACCESS_TOKEN', '106972181-9w4RUGjypkPd08ntxwLlwUvxMJzzlklwp0RzGd4W');
+define('ACCESS_TOKEN_SECRET', '12UxzLxNm5qn4LLjt2iwL6IT65HWPe7QTyykrGzUniDb2');
  
 // データファイルの更新間隔(sec)
 $delay = 5*60;

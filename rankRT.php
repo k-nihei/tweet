@@ -1,11 +1,5 @@
 <?php
-/** rankRT.php
- * リツイート回数上位ランク (PHP5対応)
- *
- * @copyright	(c)studio pahoo
- * @author		パパぱふぅ
- * @参考URL		http://www.pahoo.org/e-soul/webtech/php06/php06-48-01.shtm
-*/
+
 // 初期化処理 ================================================================
 define('INTERNAL_ENCODING', 'UTF-8');
 mb_internal_encoding(INTERNAL_ENCODING);
@@ -17,7 +11,7 @@ define('REFERENCE', 'http://www.pahoo.org/e-soul/webtech/php06/php06-48-01.shtm'
 define('TITLE', 'リツイート回数上位ランク');
 
 //リリース・フラグ（公開時にはTRUEにすること）
-define('FLAG_RELEASE', FALSE);
+define('FLAG_RELEASE', TRUE);
 
 //ランキング件数（100以下）
 define('NUMBER_OF_RANK', 10);

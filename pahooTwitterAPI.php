@@ -1,15 +1,4 @@
 <?php
-/** pahooTwitter.php
- * Twitter APIに関わるクラス（PHP5専用）
- *
- * @copyright	(c)studio pahoo
- * @author		パパぱふぅ
- * @参考URL		http://www.pahoo.org/e-soul/webtech/php06/php06-24-01.shtm
- *
- * [利用するWebAPI]
- *  Twitter API
-*/
-
 // Twitter API クラス =======================================================
 class pahooTwitterAPI {
 	var $webapi;		//直前に呼び出したWebAPI URL
@@ -19,10 +8,10 @@ class pahooTwitterAPI {
 	var $responses;	//直前の結果（配列）
 
 	//OAuth用パラメータ
-	const TWTR_CONSUMER_KEY    = 'EOtxYrUULah2wcX8DtaMDYQpA';
-	const TWTR_CONSUMER_SECRET = '3FetIXJheplcbT30c6GZ6o9EXuovzjqtj1Th6cfL5G6SdlPNu7';
-	const TWTR_ACCESS_KEY      = '106972181-de7MOCY8Nz2N6noh4cUv50bQa9AT0AHYckC8RNSU';
-	const TWTR_ACCESS_SECRET   = '9H8IWc2nS7TQO2iOrrrX4558O8IJ0AIyO9Sg97JSTw4Dn';
+	const TWTR_CONSUMER_KEY    = 'JZO7anqtpuCV845XjKvTIAID3';
+	const TWTR_CONSUMER_SECRET = 'cflqal7J36vbJUAd7wNaYBe3ZBrvrJMNVsH6n8QPmKQFVNDcnZ';
+	const TWTR_ACCESS_KEY      = '106972181-9w4RUGjypkPd08ntxwLlwUvxMJzzlklwp0RzGd4W';
+	const TWTR_ACCESS_SECRET   = '12UxzLxNm5qn4LLjt2iwL6IT65HWPe7QTyykrGzUniDb2';
 
 /**
  * コンストラクタ
@@ -129,7 +118,7 @@ function request_user($url, $method, $option) {
 		'oauth_signature_method'	=> 'HMAC-SHA1',
 		'oauth_timestamp'			=> time(),
 		'oauth_nonce'				=> microtime(),
-		'oauth_version'			=> '1.0'
+		'oauth_version'			=> '1.1'
 	);
 	$params = array_merge($option, $params);
 	ksort($params) ;
