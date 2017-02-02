@@ -1,15 +1,13 @@
-<?php
-
-
+<?
 require_once('./oauth/TwitterOAuth.php');
 
 //twitterAppsで取得
-$consumerKey        = EOtxYrUULah2wcX8DtaMDYQpA; // https://apps.twitter.com から取得
-$consumerSecret     = 3FetIXJheplcbT30c6GZ6o9EXuovzjqtj1Th6cfL5G6SdlPNu7;　// https://apps.twitter.com から取得
-$accessToken        = 106972181-de7MOCY8Nz2N6noh4cUv50bQa9AT0AHYckC8RNSU;　// https://apps.twitter.com から取得
-$accessTokenSecret  = 9H8IWc2nS7TQO2iOrrrX4558O8IJ0AIyO9Sg97JSTw4Dn;　// https://apps.twitter.com から取得
+$consumerKey        = JZO7anqtpuCV845XjKvTIAID3; // https://apps.twitter.com から取得
+$consumerSecret     = cflqal7J36vbJUAd7wNaYBe3ZBrvrJMNVsH6n8QPmKQFVNDcnZ;　// https://apps.twitter.com から取得
+$accessToken        = 106972181-9w4RUGjypkPd08ntxwLlwUvxMJzzlklwp0RzGd4W;　// https://apps.twitter.com から取得
+$accessTokenSecret  = 12UxzLxNm5qn4LLjt2iwL6IT65HWPe7QTyykrGzUniDb2;　// https://apps.twitter.com から取得
 
-$search_key = "#QBオンライン -RT";　//検索キーワード, -RTはリトイートを除く
+$search_key = "#google -RT";　//検索キーワード, -RTはリトイートを除く
 
 $options = array('q'=>$search_key, 'count'=>'100', 'lang'=>"jp", 'result_type' => 'recent');
 
