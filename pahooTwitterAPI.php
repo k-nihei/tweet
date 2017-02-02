@@ -19,10 +19,10 @@ class pahooTwitterAPI {
 	var $responses;	//直前の結果（配列）
 
 	//OAuth用パラメータ
-	const TWTR_CONSUMER_KEY    = '***************';
-	const TWTR_CONSUMER_SECRET = '***************';
-	const TWTR_ACCESS_KEY      = '***************';
-	const TWTR_ACCESS_SECRET   = '***************';
+	const TWTR_CONSUMER_KEY    = 'EOtxYrUULah2wcX8DtaMDYQpA';
+	const TWTR_CONSUMER_SECRET = '3FetIXJheplcbT30c6GZ6o9EXuovzjqtj1Th6cfL5G6SdlPNu7';
+	const TWTR_ACCESS_KEY      = '106972181-de7MOCY8Nz2N6noh4cUv50bQa9AT0AHYckC8RNSU';
+	const TWTR_ACCESS_SECRET   = '9H8IWc2nS7TQO2iOrrrX4558O8IJ0AIyO9Sg97JSTw4Dn';
 
 /**
  * コンストラクタ
